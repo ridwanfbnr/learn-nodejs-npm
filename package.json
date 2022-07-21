@@ -1,0 +1,36 @@
+{
+  "name": "belajar-nodejs-npm",
+  "version": "1.0.0",
+  "description": "Belajar NodeJS NPM",
+  "exports": {
+    ".": "./index.js",
+    "./write": "./write.js"
+  },
+  "homepage": "https://www.programmerzamannow.com/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ridwanfbnr/learn-nodejs-npm"
+  },
+  "scripts": {
+    "prestart": "echo 'Before Application Start'",
+    "start": "node index.js",
+    "poststart": "echo 'After Application Start'",
+    "index": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "pzn",
+    "nodejs",
+    "npm"
+  ],
+  "author": "Ridwan Febnur A.R",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "nodewan": "^1.0.0"
+  },
+  "devDependencies": {
+    "moment": "^2.29.3"
+  }
+}
